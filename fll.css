@@ -1,0 +1,179 @@
+body{
+  background-color: rgb(245, 245, 245);
+  font-weight: 100;
+  font-family: 'Open Sans';
+}
+.container-fluid h2{
+  font-weight: 100;
+  color: #113164;
+}
+.container-fluid p{
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  font-size:1.125rem;
+  line-height:2;
+
+}
+.pas{
+  padding-top: 0;
+}
+
+.size{
+  width: 150px;
+  height: 105px;
+  margin-top: 20px;
+}
+@media only screen and (min-width: 200px) {
+  .row p{
+    font-size: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .size{
+    width: 90px;
+    height: 70px;
+    margin-top: 20px;
+  }
+  img.butt.img-fluid{
+    padding: 5px
+  }
+}
+button{
+  padding: 10px
+}
+@media only screen and (min-width: 808px) {
+  .pas{
+    padding-top: 15%;
+  }
+}
+
+.butt{
+    padding: 20px;
+}
+.larger{
+  width:120%
+}
+.navbar-dark .navbar-nav .nav-link{
+  color:#113164
+}
+.tstart{
+  font-size:4rem;
+  color:#113164;
+}
+.header{
+  text-align: center;
+  font-size: 3rem;
+}
+.iconsize{
+  width: 30%;
+  height: 30%;
+}
+#mainNav .navbar-brand{
+  color: black;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+#mainNav .nav-link:hover{
+  color: black;
+
+}
+.jumbotron{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  border-radius: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/33/hBd6EPoQT2C8VQYv65ys_White%20Sands.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1950&q=80");
+}
+.title{
+  margin: 0 20%;
+  padding: 20% 10%;
+  color: #113164;
+  text-align: center;
+  border: 2px solid #113164;
+  background-color: rgb(245, 245, 245);
+
+}
+
+#mainNav{
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #113164;
+  padding-top: 0;
+  padding-bottom: 0;
+}#mainNav .nav-links{
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #113164;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+h1 span{
+  color:#113164;
+}
+h1{
+  font-weight: 100;
+}
+@media(max-width: 1000px){
+  h1{
+    font-size: 2rem;
+  }
+}
+.content{
+  margin-top: 100px;
+}
+.navbar.scrolled{
+  background-color: white;
+}
+.butt{
+  border:none;
+}
+.icon {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  fill: #113164;
+}
+.icon:hover{
+  fill: black;
+
+}
+.siz{
+  font-size: 1.7rem;
+}
+.block{
+  border: 2px solid #113164;
+  margin: 5px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 2%;
+  color: #113164;
+}
+.divide{
+  width:100%;
+  max-height: 100px;
+
+}
+.marg{
+  margin: auto;
+}
+.mid{
+  padding: 120px 0px;
+  height: 400px;
+  color: white;
+
+}
+.midsect{
+  color: white;
+}
+.row p{
+  font-size: 1.5rem;
+}
