@@ -1,16 +1,17 @@
 body{
-  background-color: rgb(245, 245, 245);
+
+  background-color: white;
   font-weight: 100;
   font-family: 'Open Sans';
 }
 .container-fluid h2{
   font-weight: 100;
-  color: #113164;
+  color: #fab1a0;
 }
 .container-fluid p{
-  color: black;
+  color: #e17055;
   font-weight: 100;
-  text-align: center;
+  /* text-align: center; */
   font-size:1.125rem;
   line-height:2;
 
@@ -18,7 +19,9 @@ body{
 .pas{
   padding-top: 0;
 }
-
+h6.text-center {
+  color:white
+}
 .size{
   width: 150px;
   height: 105px;
@@ -45,10 +48,13 @@ button{
 }
 @media only screen and (min-width: 808px) {
   .pas{
-    padding-top: 15%;
+    /* padding-top: 15%; */
   }
 }
-
+.sub-head{
+  color: #fab1a0;
+  text-align: center;
+}
 .butt{
     padding: 20px;
 }
@@ -56,11 +62,11 @@ button{
   width:120%
 }
 .navbar-dark .navbar-nav .nav-link{
-  color:#113164
+  color:#fab1a0
 }
 .tstart{
   font-size:4rem;
-  color:#113164;
+  color:#fab1a0;
 }
 .header{
   text-align: center;
@@ -70,20 +76,26 @@ button{
   width: 30%;
   height: 30%;
 }
+a.nav-link.active{
+  color: #e17055!important;
+}
+#mainNav .nav-link{
+  color: #fab1a0;
+}
 #mainNav .navbar-brand{
-  color: black;
+  color: #e17055;
   font-weight: 100;
   font-size: 1.5rem;
 }
 #mainNav .nav-link:hover{
-  color: black;
+  color: #e17055;
 
 }
 .jumbotron{
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0%;
+  /* padding: 0%; */
   border-radius: 0;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -92,23 +104,25 @@ button{
 .title{
   margin: 0 20%;
   padding: 20% 10%;
-  color: #113164;
+  color: #fab1a0;
   text-align: center;
-  border: 2px solid #113164;
-  background-color: rgb(245, 245, 245);
+  border: 2px solid #fab1a0;
+  background-color: white;
 
 }
-
+span.contact-spans{
+  display: block;
+}
 #mainNav{
   font-weight: 100;
   font-size: 1.5rem;
-  color: #113164;
+  color: #fab1a0;
   padding-top: 0;
   padding-bottom: 0;
 }#mainNav .nav-links{
   font-weight: 100;
   font-size: 1.5rem;
-  color: #113164;
+  color: #fab1a0;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -117,7 +131,7 @@ button{
   padding-right: 0;
 }
 h1 span{
-  color:#113164;
+  color:#fab1a0;
 }
 h1{
   font-weight: 100;
@@ -130,6 +144,9 @@ h1{
 .content{
   margin-top: 100px;
 }
+#my-clinic{
+  margin-top: 20px;
+}
 .navbar.scrolled{
   background-color: white;
 }
@@ -140,22 +157,22 @@ h1{
   display: inline-block;
   width: 3em;
   height: 3em;
-  fill: #113164;
+  fill: #fab1a0;
 }
 .icon:hover{
-  fill: black;
+  fill: #e17055;
 
 }
 .siz{
   font-size: 1.7rem;
 }
 .block{
-  border: 2px solid #113164;
+  border: 2px solid #e17055;
   margin: 5px;
   background-color: white;
   margin: 5px auto;
   padding: 2%;
-  color: #113164;
+  color: #fab1a0;
 }
 .divide{
   width:100%;
@@ -166,8 +183,14 @@ h1{
   margin: auto;
 }
 .mid{
-  padding: 120px 0px;
-  height: 400px;
+  padding-top: 70px;
+  height: 300px;
+  color: white;
+
+}
+.trans{
+  padding-top: 120px;
+  height: 300px;
   color: white;
 
 }
@@ -175,5 +198,9 @@ h1{
   color: white;
 }
 .row p{
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+.text-center.heading{
+  font-weight: 100;
+  color: #e17055;
 }

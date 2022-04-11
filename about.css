@@ -1,0 +1,210 @@
+body{
+
+    background-color: white;
+    font-weight: 100;
+    font-family: 'Open Sans';
+  }
+  .container-fluid h2{
+    font-weight: 100;
+    color: #fab1a0;
+  }
+  .container-fluid p{
+    color: #e17055;
+    font-weight: 100;
+    /* text-align: center; */
+    font-size:1.125rem;
+    line-height:2;
+  
+  }
+  .pas{
+    padding-top: 0;
+  }
+  h6.text-center {
+    color:white
+  }
+  .size{
+    width: 150px;
+    height: 105px;
+    margin-top: 20px;
+  }
+  @media only screen and (min-width: 200px) {
+    .row p{
+      font-size: 0.5em;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .size{
+      width: 90px;
+      height: 70px;
+      margin-top: 20px;
+    }
+    img.butt.img-fluid{
+      padding: 5px
+    }
+  }
+  button{
+    padding: 10px
+  }
+  @media only screen and (min-width: 808px) {
+    .pas{
+      /* padding-top: 15%; */
+    }
+    .con{
+        margin-top: 100px;
+    }
+  }
+  .sub-head{
+    color: #fab1a0;
+    text-align: center;
+  }
+  .butt{
+      padding: 20px;
+  }
+  .larger{
+    width:120%
+  }
+  .navbar-dark .navbar-nav .nav-link{
+    color:#fab1a0
+  }
+  .tstart{
+    font-size:4rem;
+    color:#fab1a0;
+  }
+  .header{
+    text-align: center;
+    font-size: 3rem;
+  }
+  .iconsize{
+    width: 30%;
+    height: 30%;
+  }
+  a.nav-link.active{
+    color: #e17055!important;
+  }
+  #mainNav .nav-link{
+    color: #fab1a0;
+  }
+  #mainNav .navbar-brand{
+    color: #e17055;
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  #mainNav .nav-link:hover{
+    color: #e17055;
+  
+  }
+  .jumbotron{
+    width: 100%;
+    max-height: 50%;
+    margin: 0;
+    padding: 0%;
+    border-radius: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/33/hBd6EPoQT2C8VQYv65ys_White%20Sands.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1950&q=80");
+  }
+  .title{
+    margin: 0 20%;
+    padding: 10% 10%;
+    color: #fab1a0;
+    text-align: center;
+    border: 2px solid #fab1a0;
+    background-color: white;
+  
+  }
+  span.contact-spans{
+    display: block;
+  }
+  #mainNav{
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #fab1a0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }#mainNav .nav-links{
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #fab1a0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h1 span{
+    color:#fab1a0;
+  }
+  h1{
+    font-weight: 100;
+  }
+  @media(max-width: 1000px){
+    h1{
+      font-size: 2rem;
+    }
+  }
+  .content:first-child{
+    margin-top: 100px;
+  }
+
+  #my-clinic{
+    margin-top: 20px;
+  }
+  .navbar.scrolled{
+    background-color: white;
+  }
+  .butt{
+    border:none;
+  }
+  .icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    fill: #fab1a0;
+  }
+  .icon:hover{
+    fill: #e17055;
+  
+  }
+  .siz{
+    font-size: 1.7rem;
+  }
+  .block{
+    border: 2px solid #e17055;
+    margin: 5px;
+    background-color: white;
+    margin: 5px auto;
+    padding: 2%;
+    color: #fab1a0;
+  }
+  .divide{
+    width:100%;
+    max-height: 100px;
+  
+  }
+  .marg{
+    margin: auto;
+  }
+  .mid{
+    padding-top: 70px;
+    height: 300px;
+    color: white;
+  
+  }
+  .trans{
+    padding-top: 120px;
+    height: 300px;
+    color: white;
+  
+  }
+  .midsect{
+    color: white;
+  }
+  .row p{
+    font-size: 1rem;
+  }
+  .text-center.heading{
+    font-weight: 100;
+    color: #e17055;
+  }
