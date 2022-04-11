@@ -47,9 +47,7 @@ body{
     padding: 10px
   }
   @media only screen and (min-width: 808px) {
-    .pas{
-      /* padding-top: 15%; */
-    }
+
     .con{
         margin-top: 100px;
     }
